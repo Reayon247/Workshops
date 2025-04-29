@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+header {
+  background-color: brown;
+}
+main {
+  background-color: darkgreen;
+}
+footer {
+  background-color: beige;
+}
+button {
+  color: white;
+  background-color: black;
+}
