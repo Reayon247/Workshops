@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(6, 122, 12);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: chartreuse;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 4rem;
+}
+.yoshi1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.text1 {
+}
+p {
+  font-size: 2rem;
+  max-width: 600px;
+}
+
+.yoshiimg1 {
+  height: 300px;
+}
+.yoshiimg2 {
+  height: 300px;
+}
