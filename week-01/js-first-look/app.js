@@ -32,3 +32,52 @@ console.log(`Is ${a} greater than ${b}?`, isAGreaterthanB);
 
 const sentance = `My name is ${fullName}. ${whoIam} LETSS GOOOOOO `;
 console.log(sentance);
+
+// exploring if, else and if else
+// == equal === strict != not equal !== strict
+
+let age = 10;
+const legalDrivingAge = 17;
+
+if (age > legalDrivingAge) {
+  console.log("You can drive!!");
+}
+
+age = 18;
+
+if (age > legalDrivingAge) {
+  console.log("You can drive!!");
+}
+
+let isRoadLegal = false;
+
+if (age > legalDrivingAge) {
+  isRoadLegal = true;
+}
+
+console.log(`Am I road legal? ${isRoadLegal}`);
+
+if (age > legalDrivingAge) {
+  console.log("You are legal!!");
+} else {
+  console.log("YOU CANT DRIVE HAHAHAH");
+}
+
+age = 6;
+
+if (age > legalDrivingAge) {
+  console.log("You are legal!!");
+} else {
+  console.log("YOU CANT DRIVE HAHAHAH");
+}
+
+age = 15;
+let movieRating = "PG";
+
+if (age > 17) {
+  console.log("you can watch any movie");
+} else if (age >= 15 && age <= 17) {
+  console.log("you can watch a 15 movie but not an 18!");
+} else if (age >= 12 && age <= 14) {
+  console.log("You can watch a 12 rated movie but not a 15 or 18!");
+} else console.log("You need a parent to watch a PG or you can watch A U film");
