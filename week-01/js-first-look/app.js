@@ -1,0 +1,34 @@
+console.log("hello world");
+let myName = "Ryan";
+console.log(myName);
+let myAge = "24";
+console.log(myAge);
+let whoIam = "Im a Gamer";
+console.log(myName + " " + myAge + " " + whoIam);
+console.log(403 + 2034);
+let numberOne = 80003;
+let numberTwo = 28391;
+console.log(numberOne + numberTwo);
+numberOne = 99;
+console.log(numberOne + numberTwo);
+let numberThree = numberOne + numberTwo;
+console.log(numberThree);
+let lastName = "Nugent";
+let fullName = myName + " " + lastName;
+console.log(fullName + " " + myAge);
+console.log(`${fullName} is epic`);
+console.log(`${fullName} is ${fullName.length} letters long epic`);
+let isTrue = true;
+console.log(`The type of data isTrue is ${typeof isTrue}`);
+console.log(`The type of data my name is a ${typeof fullName}`);
+let a = 5;
+let b = 10;
+let isAGreaterthanB = a > b;
+let isALessthanB = a < b;
+let isAequaltoB = a === b;
+
+console.log(isAGreaterthanB);
+console.log(`Is ${a} greater than ${b}?`, isAGreaterthanB);
+
+const sentance = `My name is ${fullName}. ${whoIam} LETSS GOOOOOO `;
+console.log(sentance);
