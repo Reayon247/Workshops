@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+}
+header {
+  grid-column: 1 / -1;
+}
+
+main {
+  grid-column: 1 / 6;
+  grid-row: 2 / 5;
+}
+
+footer {
+  grid-column: 1 / -1;
+  grid-row: -1 / -2;
+}
