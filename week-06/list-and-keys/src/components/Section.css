@@ -1,0 +1,9 @@
+.title {
+  color: rgb(0, 225, 255);
+
+  &:hover {
+    color: rgb(0, 87, 99);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
