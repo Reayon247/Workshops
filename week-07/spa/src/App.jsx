@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router";
 import About from "./components/About.jsx";
 import NotFoundPage from "./components/NotFoundPage";
 import HomePage from "./components/HomePage";
+import UserPage from "./components/UserPage.jsx";
 
 export default function app() {
   return (
@@ -15,6 +16,7 @@ export default function app() {
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/" element={<HomePage />} />
+        <Route path="/users/:username" element={<UserPage />} />
       </Routes>
     </>
   );
